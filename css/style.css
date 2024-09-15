@@ -1,0 +1,234 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  /* End Global Rules */
+  
+  /*  Start Header   */
+  #header {
+    overflow: hidden;
+    background-color: #2d3e50;
+    padding: 20px 10px;
+  }
+  /* Style the header links */
+#header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+/* Style the logo link */
+#header a#logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* Float the link section to the right */
+#header-right {
+  float: right;
+}
+#switcher {
+  background-color:#1bbc9b;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-left: 100px;
+}
+#switcher:hover {
+  background-color:#2d3e50;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-left: 100px;
+}
+
+ /*  End Header   */
+
+/* Start Landing Section */
+#landing {
+  text-align: center;
+  color: white;
+  background-color: #1bbc9b;
+  height: 350px;
+}
+#avatar {
+  width: 150px;
+}
+/* End Landing Section */
+/* Start Portfolio Section */
+#portfolio{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.portfolio-img {
+  display: grid;
+  grid-template-columns: repeat(3 , 300px);
+  /* grid-auto-rows: 250px; */
+}
+.img1 , .img2 , .img3 , .img4 , .img5 , .img6 {
+  max-width: 250px;
+  padding: 5px;
+  position: relative;
+  left: 215px;
+}
+
+/* End Portfolio Section */
+
+/* Start About Section */
+#About {
+background-color: #1bbc9b;
+text-align: center;
+max-height: 350px;
+color: white;
+
+}
+#h2-about{
+  font-size: 30px;
+  padding-top: 50px;
+}
+#p-grid {
+  padding-top: 20px;
+  font-size: 15px;
+}
+#p-grid2 {
+  padding-top: 20px;
+  font-size: 15px;
+}
+#About #about-grid {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+}
+#About #about-btn {
+ text-decoration: none;
+ color: white;
+}
+#Download {
+  height: 35px;
+  background-color: #1bbc9b;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  border: white solid 1px;
+}
+#Download:hover {
+  height: 35px;
+  background-color: #1bbc9b;
+  color: black;
+  border-radius: 10px;
+  height: 50px;
+  border: white solid 1px;
+  font-weight: bold;
+}
+/* End About Section */
+
+/* Start Contact Section */
+#contact {
+  padding-top: 80px;
+  color: black;
+  height: 600px;
+}
+#formcontact {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  position: absolute;
+  left: 350px;
+}
+#input1 , #input2 , #input3 , #input4 {
+  padding: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#input4 {
+  max-height: 200px;
+}
+#btn-contact{
+  width: 100px;
+  background-color: #1bbc9b;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+#btn-contact:hover{
+  width: 100px;
+  background-color: #1bbc9b;
+  color: black;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+/* End Contact Section */
+
+/* Start Footer Section */
+#footer {
+  background-color: #2d3e50;
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+#small-icons {
+  padding-top: 15px;
+}
+
+/* End Footer Section */
+
+/* Start Copyright Section */
+#copyright {
+  background-color: #1b252f;
+  height: 60px;
+  padding-top: 3px;
+}
+
+
+/* End Copyright Section */
+

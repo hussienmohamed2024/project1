@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <!-- Main Templete CSS-->
+     <link rel="stylesheet" href="./css/style.css">
+      <!-- Favicon-->
+      <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+     <!-- Render All Elements Normmaly-->
+     <link rel="stylesheet" href="./css/normalize.css">
+     <!-- Font Awesome-->
+      <link rel="stylesheet" href="./css/all.min.css">
+       <!-- Google fonts-->
+       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+       <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <title>Website</title>
+</head>
+<body>
+    <!-- Start Header -->
+    
+     <div id="header">
+        <div class="container">
+            <a href="#default" id="logo">START BOOTSTRAP</a>
+            <div id="header-right">
+                <a id="active" href="#portfolio">PORTOFOLIO</a>
+                <a id="active2" href="#about">ABOUT</a>
+                <a id="active3" href="#contact">CONTACT</a>
+                <div id = "languageSwitcher"></div>
+                <button id="switcher" onclick = "swithcLang('italy')"> Change To Italy </button>
+                </div>
+              </div>
+        </div>
+     </div>
+    <!-- End Header -->
+     <!-- Start Landing Section -->
+      <div id="landing">
+        <div id="containar-landing">
+            <img id="avatar" src="./images/avatar.svg" alt="">
+            <h1 id="h1-landing">START BOOTSTRAP</h1>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <p id="p-landing">Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+      </div>
+     <!-- End Landing Section -->
+       <!-- Start Portfolio Section-->
+        <div id="portfolio">
+            <h2 id="h2-portfolio">PORTFOLIO</h2> 
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-img">
+                <img class="img1" src="./images/1.png" alt="">
+                <img class="img2" src="./images/2.png" alt="">
+                <img class="img3" src="./images/3.png" alt="">
+                <img class="img4" src="./images/4.png" alt="">
+                <img class="img5" src="./images/5.png" alt="">
+                <img class="img6" src="./images/6.png" alt="">
+            </div>
+        </div>
+          <!-- End Portfolio Section-->
+             <!-- Start About Section-->
+              <div id="About">
+                <h2 id="h2-about">ABOUT</h2>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div id="about-grid">
+                    <p id="p-grid">Freelancer is a free bootstrap theme created by<br> Start Bootstrap. The download includes the<br> complete source files including HTML, CSS, and<br> JavaScript as well as optional SASS stylesheets<br> for easy customization.</p>
+                    <p id="p-grid2">you can create your own custom avatar for the<br> masthead, change the icon in the dividers, and<br> add your email address to the contact form to<br> make it fully functional!</p>
+                </div>
+                <!-- About Section Button-->
+                <div id="about-btn">
+                    <button id="Download" type="button">Free Download</button>
+              </div>
+              <!-- End About Section-->
+               <!-- Start Contact Section-->
+                <div id="contact">
+                    <h2 id="h2-contact">CONTACT ME</h2>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <form id="formcontact" action="">
+                        <input id="input1" type="text" name="text" placeholder="Full Name">
+                        <input id="input2" type="email" name="email" placeholder="Email Address">
+                        <input id="input3" type="tel" name="tel" placeholder="Phone Number">
+                        <textarea name="textarea" id="input4" cols="20" rows="5" placeholder="Message"></textarea>
+                        <button id="btn-contact" type="submit" name="submit">Send</button>
+                    </form>
+                </div>
+                    <!-- End Contact Section-->
+                     <!-- Start Footer Section-->
+                      <div id="footer">
+                        <div id="left-section">
+                        <h2 id="h2-left-location">Location</h2>
+                        <p id="address-footer">2215 John Daniel Drive<br> Clark, MO 65243</p>
+                        </div>
+                        <div id="center-section">
+                            <h2 id="h2-center-section">AROUND THE WEB</h2>
+                            <div id="small-icons">
+                            <i class="fa-brands fa-facebook fa-2xl"></i>
+                            <i class="fa-brands fa-square-twitter fa-2xl"></i>
+                            <i class="fa-brands fa-linkedin fa-2xl"></i>
+                            </div>
+                            </div>
+                            <div id="right-section">
+                                <h2 id="h2-right-section">ABOUT FREELANCER</h2>
+                                <P id="p-right-section">FreeLance is a free to use, MIT licensed<br> Bootstrap Theme Created by Hussien Mohamed</P>
+                            </div>
+                      </div>
+                       <!-- End Footer Section-->
+                         <!-- Start CopyRight Section-->
+                          <div id="copyright">
+                            <p id="p-copyright">Copyright Hussien Mohamed 2024</p>
+                          </div>
+
+                
+
+              <script src="./javascript/main.js"></script>
+</body>
+</html>
